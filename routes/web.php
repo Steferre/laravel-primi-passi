@@ -33,7 +33,7 @@ Route::get('/progetti', function() {
     return view('projects', [
         'none' => 'Ancora nessun progetto caricato!',
     ]);
-});
+})->name('projects');
 
 Route::get('/descrizione', function () {
     return view('about');

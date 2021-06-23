@@ -18,9 +18,9 @@
 
         <h2>Benvenuto {{ $name }}</h2>
 
-        <a href="/contatti">contatti</a>
-        <a href="/progetti">progetti</a>
-        <a href="/descrizione">descrizione</a>
+        <a href="{{ route('contacts') }}">contatti</a>
+        <a href="{{ route('projects') }}">progetti</a>
+        <a href="{{ route('about') }}">descrizione</a>
     </div>
 </body>
 </html>
